@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* color: red; */
+    background-color: #0f133e;
+    /* min-height: 100vh; 
+    background: url("cricket.webp") no-repeat center/cover; 
+    background-attachment: none; /* or remove */
+    /* image-rendering: crisp-edges;  */
+
+
+   
+
+}
+.wrapper{
+    margin:5rem auto auto auto;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.detail{
+    /* width: 100%; */
+    display: flex;
+    /* min-height:5rem ; */
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2rem;
+   
+    
+}
+.detail form{
+    border: 2px double rgb(17, 121, 206);
+    padding:1rem;
+    background-color: rgb(17, 121, 206);
+
+}
+.inputs{
+    padding:0.5rem;
+    color:#000;
+    font-size: 20px;
+}
+
+#leaderBoardDiv{
+    
+    width: 40%;
+    max-height: 430px;
+    /* text-align: center; */
+    border: 2px solid rgb(17, 121, 206);
+    gap:1rem;
+    padding: 30px 20px;
+    margin: 40px auto 0;
+    /* display: none; */
+    overflow: auto;
+    /* color:black; */
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap:1rem; */
+    background-color: rgb(17, 121, 206);
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding: 2rem 0.8rem;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 30vw;
+  }
+  .action {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .action span {
+    cursor: pointer;
+}
+/* 
+@media (max-width:1150px) {
+
+    .detail{
+      
+        flex-direction: column;
+    }
+    
+} */
+

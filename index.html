@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leaderBoard</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>🏆LEADERBOARD🏆</h1>
+        <div class="detail">
+            <form action="">
+                <input class="inputs" type="text" placeholder="First Name" name="fname" />
+                <input class="inputs" type="text" placeholder="Last Name" name="lname" />
+                <select class="inputs" name="country" id="">
+                  <option value="" selected disabled>Select Country</option>
+                  <option value="india">India</option>
+                  <option value="australia">Australia</option>
+                  <option value="west indies">West Indies</option>
+                  <option value="england">England</option>
+                  <option value="pakistan">Pakistan</option>
+                </select>
+                <input class="inputs" type="number" placeholder="Score" name="score" />
+                <button class="inputs" type="submit">Add Score</button>
+            </form>
+        </div>
+        
+        <div id="leaderBoardDiv">
+            <div class="parent">
+                <p>Player</p>
+                <p>Country</p>
+                <p>Score</p>
+                <div class="action">
+                    Action
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
